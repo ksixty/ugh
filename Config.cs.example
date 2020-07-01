@@ -1,0 +1,12 @@
+namespace ugh
+{
+    public class Config
+    {
+        public const string ClientId     = "DUMMY";
+        public const string ClientSecret = "DUMMY";
+        
+        public const string SessionFile = "authdata.bin";
+        public const int ServerPort = 15137;
+        public const string OAuthUrl = "https://github.com/login/oauth";
+    }
+}
